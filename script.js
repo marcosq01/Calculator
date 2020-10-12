@@ -45,6 +45,7 @@ function ac() {
         val = "";
         isOperator = false;
         isDecimal = false;
+        lastCharacterPressed = '';
         display('0'); 
     });
 }
